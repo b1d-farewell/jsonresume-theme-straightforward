@@ -13,17 +13,17 @@
             {{address}} {{city}} {{region}} {{postalCode}}
           </span>
         {{/location}}
-        {{#if phone}}
-          <span class='phone'>
-            <a href="tel:{{phone}}">{{phone}}</a>
-          </span>
-        {{/if}}
       </div>
 
       <div class='contactBlock'>
         {{#if email}}
           <span class='email'>
             <a href="mailto:{{email}}">{{email}}</a>
+          </span>
+        {{/if}}
+        {{#if phone}}
+          <span class='phone'>
+            <a href="tel:{{phone}}">{{phone}}</a>
           </span>
         {{/if}}
         {{#if url}}
